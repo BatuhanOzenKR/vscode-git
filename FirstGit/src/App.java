@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, gitHub!");
+        Telefon tel1 = new Telefon();
+        tel1.Marka = "Samsung";
+        tel1.Model = "A52";
+
+        Ogrenci ogrenci = new Ogrenci("Batuhan","Aykanat",352);
     }
 }
