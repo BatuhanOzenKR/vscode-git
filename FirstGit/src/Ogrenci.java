@@ -1,5 +1,3 @@
-import java.security.PublicKey;
-
 public class Ogrenci {
     public Ogrenci(String ad, String soyad, int numara) {
         this.Ad = ad;

@@ -4,6 +4,10 @@ public class App {
         tel1.Marka = "Samsung";
         tel1.Model = "A52";
 
-        Ogrenci ogrenci = new Ogrenci("Batuhan","Aykanat",352);
+        Ogrenci ogrenci = new Ogrenci("Batuhan", "Aykanat", 352);
+        System.out.println(ogrenci);
+
+
+        ucgen Ucgen= new ucgen();
     }
 }
